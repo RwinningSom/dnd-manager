@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Character sheet</title>
+		<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="theme.css">
+	</head>
+
+	<body>
+	<div class="div1">	
+		<div>
+			<ul class="menu">
+				<li><a href="Login.html">Log in</a></li>
+				<li><a href="RenteeScores.html">Background story</a></li>
+				<li><a href="SubmitRenteeScore.html">Items</a></li>
+			</ul>
+		</div>
+		<div class="heading">
+			<div class="logo">
+				<img src="images/TakeThatLogo.png" height="100px">
+			</div>
+			<div class="main-details">
+					<form name="main-details">
+						<div class="form-details-seperator">
+							Class 
+							<br>
+								<input class="form-strings" type="text" name="class">
+								<br>
+							Race 
+							<br>
+								<input class="form-strings" type="text" name="race">
+						</div>
+						<div class="form-details-seperator">
+							Level 
+							<br>
+								<input class="form-strings" type="integer" name="level">
+								<br>
+							Alignment <br>
+								<input class="form-strings" type="text" name="alignment">
+						</div>
+						<div class="form-details-seperator">
+							Background
+							<br>
+								<input class="form-strings" type="text" name="background">
+								<br>
+							Experience points
+							<br>
+								<input class="form-strings" type="text" name="experience-points">
+						</div>
+						<div class="form-details-seperator">
+							Player name
+							<br>
+								<input class="form-strings" type="text" name="playerName">
+								<br>
+							Faction
+							<br>
+								<input class="form-strings" type="text" name="faction">
+						</div>
+					</form>
+			</div>
+		</div>
+
+		<div class="collumns">
+			<div class="AbilityAndStatus">
+				<div class="AbilityScores">
+					<div class="Ability">
+					Strength
+						<form class ="RemoveDefault" name="Strength">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+								<select name="Strength-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+					<div class="Ability">
+					Dexterity
+						<form class ="RemoveDefault" name="Dexterity">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+								<select name="Dexterity-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+					<div class="Ability">
+					Constitution
+						<form class ="RemoveDefault" name="Constitution">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+							<select name="Constitution-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+					<div class="Ability">
+					Intelligence
+						<form class ="RemoveDefault" name="Intelligence">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+								<select name="Intelligence-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+					<div class="Ability">
+					Wisdom
+						<form class ="RemoveDefault" name="Wisdom">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+								<select name="Wisdom-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+					<div class="Ability">
+					Charisma
+						<form class ="RemoveDefault" name="Charisma">
+							<br>
+								<input class="form-number" type="text" name="modifier">
+							<br>
+								<select name="Charisma-Modifier">
+									<option value="None"></option>
+									<option value="-2">-2</option>
+									<option value="-1">-1</option>
+									<option value="0">+0</option>
+									<option value="1">+1</option>
+									<option value="2">+2</option>
+									<option value="3">+3</option>
+									<option value="4">+4</option>
+									<option value="5">+5</option>
+								</select>
+								<br>
+						</form>
+					</div>
+				</div>
+				<div class="AbilityModifiers">
+					<div class="OneRule">
+						<form class="LeftAlignedForm" name="Charisma">
+								<input class="form-number" type="text" name="modifier"> Inspiration
+						</form>
+					</div>
+					<div class="OneRule">
+						<form class="LeftAlignedForm" name="Charisma">
+								<input class="form-number" type="text" name="modifier"> Proficiency bonus
+						</form>
+					</div>
+					<div class="SavingThrows">
+							<b>Saving throws</b><br>
+							<form class="LeftAlignedForm" name="SavingThrows">
+								<input class="checkbox" type="checkbox" name="ProficientInStrength">
+								<input class="form-number-small" type="text" name="modifier"> Strength <br>
+								<input type="checkbox" name="ProficiencyInDexterity">
+								<input class="form-number-small" type="text" name="modifier"> Dexterity <br>
+								<input type="checkbox" name="ProficientInConstitution">
+								<input class="form-number-small" type="text" name="modifier"> Constitution <br>
+								<input type="checkbox" name="ProficientInIntelligence">
+								<input class="form-number-small" type="text" name="modifier"> Intelligence <br>
+								<input type="checkbox" name="ProficientInWisdom">
+								<input class="form-number-small" type="text" name="modifier"> Wisdom <br>
+								<input type="checkbox" name="ProficientInCharisma">
+								<input class="form-number-small" type="text" name="modifier"> Charisma <br>
+							</form>
+					</div>
+					<div class="Skills">
+						<b>Skills</b><br>
+						<form class="LeftAlignedForm">
+							<input class="checkbox" type="checkbox" name="ProficientInAcrobatics">
+								<input class="form-number-small" type="text" name="modifier"> Acrobatics <br>
+							<input class="checkbox" type="checkbox" name="ProficientInAnimalHandling">
+								<input class="form-number-small" type="text" name="modifier"> Animal handling <br>
+							<input class="checkbox" type="checkbox" name="ProficientInArcana">
+								<input class="form-number-small" type="text" name="modifier"> Arcana <br>
+							<input class="checkbox" type="checkbox" name="ProficientInAthletics">
+								<input class="form-number-small" type="text" name="modifier"> Athletics <br>
+							<input class="checkbox" type="checkbox" name="ProficienInDeception">
+								<input class="form-number-small" type="text" name="modifier"> Deception <br>
+							<input class="checkbox" type="checkbox" name="ProficientInHistory">
+								<input class="form-number-small" type="text" name="modifier"> History <br>
+							<input class="checkbox" type="checkbox" name="ProficientInInsight">
+								<input class="form-number-small" type="text" name="modifier"> Insight <br>
+							<input class="checkbox" type="checkbox" name="ProficientInIntimidation">
+								<input class="form-number-small" type="text" name="modifier"> Intimidation <br>
+							<input class="checkbox" type="checkbox" name="ProficientInInvestigation">
+								<input class="form-number-small" type="text" name="modifier"> Investigation <br>
+							<input class="checkbox" type="checkbox" name="ProficientInMedicine">
+								<input class="form-number-small" type="text" name="modifier"> Medicine <br>
+							<input class="checkbox" type="checkbox" name="ProficientInNature">
+								<input class="form-number-small" type="text" name="modifier"> Nature <br>
+							<input class="checkbox" type="checkbox" name="ProficientInPerception">
+								<input class="form-number-small" type="text" name="modifier"> Perception <br>
+							<input class="checkbox" type="checkbox" name="ProficientInPerformance">
+								<input class="form-number-small" type="text" name="modifier"> Performance <br>
+							<input class="checkbox" type="checkbox" name="ProficientInPersuation">
+								<input class="form-number-small" type="text" name="modifier"> Persuation <br>
+							<input class="checkbox" type="checkbox" name="ProficientInReligion">
+								<input class="form-number-small" type="text" name="modifier"> Religion <br>
+							<input class="checkbox" type="checkbox" name="ProficientInSleightOfHand">
+								<input class="form-number-small" type="text" name="modifier"> Sleight of hand <br>
+							<input class="checkbox" type="checkbox" name="ProficientInStealth">
+								<input class="form-number-small" type="text" name="modifier"> Stealth <br>
+							<input class="checkbox" type="checkbox" name="ProficientInSurvival">
+								<input class="form-number-small" type="text" name="modifier"> Survival
+						</form>
+					</div>
+				</div>
+				<div class="PassivePerception">
+					<form class="LeftAlignedForm">
+						<input class="form-number" type="text" name="PassivePerception">
+						PassivePerception
+					</form>
+				</div>
+				<div class="OtherProficiencies">
+						OtherProficiencies<br>
+						<textarea class="TextArea" name="OtherProficiencies" rows="10">
+						</textarea>
+				</div>
+			</div>
+			<div class="AbilityAndStatus">
+				<div class="ArmorAndSpeed">
+					<b>Armor Class</b><br>
+					<input class="form-number" type="text" name="ArmorClass">
+				</div>
+				<div class="ArmorAndSpeed">
+					<b>Initiative</b><br>
+					<input class="form-number" type="text" name="Initiative">
+				</div>
+				<div class="ArmorAndSpeed">
+					<b>Speed</b><br>
+					<input class="form-number" type="text" name="Speed">
+				</div>
+				<div class="HitPoints">
+					<form class="LeftAlignedForm">
+							<input class="form-number-margin" type="text" name="MaximumHitPoints">Maximum hit points
+						<br>
+							<input class="form-number-margin" type="text" name="CurrentHitPoints">Current hit points
+						<br>
+							<input class="form-number-margin" type="text" name="TemporaryHitPoints">Temporary hit points
+					</form>
+				</div>
+				<div class="HitDice">
+					<form class="LeftAlignedForm">
+						Total <input class="form-number-small" type="text" name="TotalHitDice">
+					</form>
+						<b>Hit dice</b><br>
+						<input class="form-number" type="text" name="HitDice">
+				</div>
+				<div class="HitDice">
+					<b>Death saves</b><br>
+					<form class="LeftAlignedForm">
+						<input type="checkbox" name="DeathsaveSucces1">
+						<input type="checkbox" name="DeathsaveSucces2">
+						<input type="checkbox" name="DeathsaveSucces3">
+						Sucesses<br>
+						<input type="checkbox" name="DeathsaveFail1">
+						<input type="checkbox" name="DeathsaveFail2">
+						<input type="checkbox" name="DeathsaveFail3">
+						Failures
+					</form>
+				</div>
+				<div class="AttacksAndSpellcasting">
+					<div class="NameAndATKBonus">
+						<b>Name</b><br><br>
+						<form>
+							<select name="weapon1">
+								<option value="None"></option>
+								<option value="Scimitar">Scimitar</option>
+								<option value="Javelin">Javelin</option>
+							</select><br>
+							<select name="weapon2">
+								<option value="None"></option>
+								<option value="Scimitar">Scimitar</option>
+								<option value="Javelin">Javelin</option>
+							</select><br>
+							<select name="weapon3">
+								<option value="None"></option>
+								<option value="Scimitar">Scimitar</option>
+								<option value="Javelin">Javelin</option>
+							</select><br>
+							<select name="weapon4">
+								<option value="None"></option>
+								<option value="Scimitar">Scimitar</option>
+								<option value="Javelin">Javelin</option>
+							</select>
+						</form>
+					</div>
+					<div class="NameAndATKBonus">
+						<b>ATK bonus</b><br><br>
+						<form>
+							+<input class="form-number-small" type="text" name="ATKBonus1"><br>
+							+<input class="form-number-small" type="text" name="ATKBonus2"><br>
+							+<input class="form-number-small" type="text" name="ATKBonus3"><br>
+							+<input class="form-number-small" type="text" name="ATKBonus4">
+						</form>
+					</div>
+					<div class="ATKBonusAndDamage">
+						<b>Damage / type</b><br><br>
+						<form class="LeftAlignedForm">
+								<select class="DropDownNarrow" name="DamageDice1">
+									<option value="None"></option>
+									<option value="1d4">1d4</option>
+									<option value="1d6">1d6</option>
+									<option value="1d8">1d8</option>
+									<option value="1d10">1d10</option>
+									<option value="1d12">1d12</option>
+								</select>
+								+<input class="form-number-narrow" type="text" name="AdditionalDamage">
+								<input class="form-number-long" type="text" name="DamageType" placeholder="Type">
+							<br>
+								<select class="DropDownNarrow" name="DamageDice2">
+									<option value="None"></option>
+									<option value="1d4">1d4</option>
+									<option value="1d6">1d6</option>
+									<option value="1d8">1d8</option>
+									<option value="1d10">1d10</option>
+									<option value="1d12">1d12</option>
+								</select>
+								+<input class="form-number-narrow" type="text" name="AdditionalDamage">
+								<input class="form-number-long" type="text" name="DamageType" placeholder="Type">
+								<select class="DropDownNarrow" name="DamageDice3">
+									<option value="None"></option>
+									<option value="1d4">1d4</option>
+									<option value="1d6">1d6</option>
+									<option value="1d8">1d8</option>
+									<option value="1d10">1d10</option>
+									<option value="1d12">1d12</option>
+								</select>
+								+<input class="form-number-narrow" type="text" name="AdditionalDamage">
+								<input class="form-number-long" type="text" name="DamageType" placeholder="Type">
+								<select class="DropDownNarrow" name="DamageDice4">
+									<option value="None"></option>
+									<option value="1d4">1d4</option>
+									<option value="1d6">1d6</option>
+									<option value="1d8">1d8</option>
+									<option value="1d10">1d10</option>
+									<option value="1d12">1d12</option>
+								</select>
+								+<input class="form-number-narrow" type="text" name="AdditionalDamage">
+								<input class="form-number-long" type="text" name="DamageType" placeholder="Type">
+						</form>
+					</div>
+				</div>
+				<div class="Equipment">
+					<div class="Money">
+						<form class="LeftAlignedForm" name="Money">
+							<input class="form-number-long" type="text" name="Copper">C.P.<br>
+							<input class="form-number-long" type="text" name="Silver">S.P.<br>
+							<input class="form-number-long" type="text" name="Electrum">E.P.<br>
+							<input class="form-number-long" type="text" name="Gold">G.P.<br>
+							<input class="form-number-long" type="text" name="Platinum">P.P.<br>
+						</form>
+					</div>
+					<div class="Items">
+						<b>Equipment</b><br>
+						<form>
+							<textarea class="TextAreaLarge" name="Equipment" rows="14"></textarea>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="features">
+				<div class="CharacterTraits">
+					Personality traits
+					<form>
+							<textarea class="TextArea" name="PersonalityTraits" rows="5"></textarea>
+					</form>
+				</div>
+				<div class="CharacterTraits">
+					Ideals
+					<form>
+							<textarea class="TextArea" name="Ideals" rows="5"></textarea>
+					</form>
+				</div>
+				<div class="CharacterTraits">
+					Bonds
+					<form>
+							<textarea class="TextArea" name="Bonds" rows="5"></textarea>
+					</form>
+				</div>
+				<div class="CharacterTraits">
+					Flaws
+					<form>
+							<textarea class="TextArea" name="Flaws" rows="5"></textarea>
+					</form>
+				</div>
+				<div class="FeaturesAndTraits">
+					Features & traits
+					<form>
+							<textarea class="TextArea" name="FeaturesAndTraits" rows="28"></textarea>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
